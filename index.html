@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animex TV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Animex TV</h1>
+    <input type="text" id="searchInput" placeholder="Search Anime / एनीमे खोजें..." />
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <section class="anime-library">
+    <h2>Anime Library | एनीमे सूची</h2>
+    <div class="poster-grid" id="posterGrid">
+      <!-- Posters will be added dynamically -->
+      <div class="anime-card" onclick="openAnime('naruto')">
+       <a href="episode.html">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfA5jcHVhCCSZESr2ZnRxpvD3cTfFKSgIIzqIimZcQuRGGGKGCUZ7atTLHqVxf3vzlxPDUzzo6xG2hAua7-7TfHnpTms4JiciNoocUJM1JCP5rHLJYGZ3nNQVD1nOozlDaRyrOb2AbtIxqA0mhkWoriS3IMdn21fohuV1oUDgnqn3p6auqiOK-eqZmOC1F/s320/NarutoCoverTankobon1.jpg"alt="Naruto" class="poster">
+</a>
+
+        <p>Naruto</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
